@@ -91,12 +91,6 @@ function Get-AwsTemporaryCredential {
         Else {
             $AwsProfile = Get-AWSCredentials -ProfileName $AwsProfileName
         }
-        $Script:AwsAccessKey = $AwsProfile.GetCredentials().AccessKey
-        $Script:AwsSecretKey = $AwsProfile.GetCredentials().SecretKey
-        Write-Verbose "Your AWS Credentials have been stored in the following variables: "
-        Write-Verbose 'VARIABLE: $AwsProfile - This is an AWS Credential Object'
-        Write-Verbose 'VARIABLE: $AwsAccessKey - This is Your AccessKey as Plain Text String'
-        Write-Verbose 'VARIABLE: $AwsSecretKey - This is Your SecretKey Plain Text String'
         Return $AwsProfile
     }
 
