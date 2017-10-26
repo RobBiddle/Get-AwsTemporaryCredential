@@ -76,7 +76,7 @@ $test.Credentials.SessionToken
 I usually build these into a hashtable for easy splatting into AWSPowerShell cmdlets:
 ```PowerShell
 $AwsTemporaryCredentialsForSplatting = @{
-  AccessKey       = $test.Credentials.AccessKeyId
+  AccessKey         = $test.Credentials.AccessKeyId
   SecretAccessKey   = $test.Credentials.SecretAccessKey
   SessionToken      = $test.Credentials.SessionToken
 }
