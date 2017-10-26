@@ -106,6 +106,6 @@ Get-EC2Instance -Region us-east-1 @AwsTemporaryCredentialsForSplatting
 ##### Support <a name="Support"></a>
 - Please Star this repo if you found some of this code useful!
 - If you're an unbelievably nice person and want to show your appreciation, I like beer ;-)
-  - Send me beer money via LTC: MHJj5jaWFU2VeqEZXnLC4xaZdQ1Nu9NC48
-  - Send me beer money via BTC: 38ieXk9rn2LJEsfimFWiyycUZZv5ABJPqM
-  - Send me beer money via USD: https://paypal.me/RobertBiddle
+  - Send me :beer: money via LTC: MHJj5jaWFU2VeqEZXnLC4xaZdQ1Nu9NC48
+  - Send me :beer: money via BTC: 38ieXk9rn2LJEsfimFWiyycUZZv5ABJPqM
+  - Send me :beer: money via USD: https://paypal.me/RobertBiddle
