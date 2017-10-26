@@ -40,7 +40,7 @@ GetHashCode   Method       int GetHashCode()
 GetType       Method       type GetType()
 ToString      Method       string ToString()
 AccountNumber NoteProperty string AccountNumber=111111111111
-Alias         NoteProperty string Alias=111111111111
+Alias         NoteProperty string Alias=ExampleFriendlyName
 Credentials   NoteProperty Credentials Credentials=Amazon.SecurityToken.Model.Credentials
 Region        NoteProperty string Region=us-east-1
 RoleName      NoteProperty string RoleName=ExampleRole
